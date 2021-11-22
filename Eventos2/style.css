@@ -1,0 +1,26 @@
+h2{
+    text-align: center;
+}
+.acordeon{
+    background-color: #fed120;
+    color: black;
+    cursor: pointer;
+    padding: 20px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size:18px;
+}
+
+.active,.acordeon:hover{
+    background-color: orange;
+}
+
+.panel{
+    padding:0px 20px ;
+    background-color:cornsilk ;
+    overflow: hidden;
+    display: none;
+    
+}
