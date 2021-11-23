@@ -11,7 +11,7 @@ const eleAcordeon = document.getElementsByClassName("acordeon");
 for(let elemento of eleAcordeon) {
     //elemento.classList.toggle(xxxxx) <-- cambia el elemento de una clase el elemento
     elemento.addEventListener("click",(e)=>{
-        elemento.classList.toggle("active");
+        elemento.classList.toggle("active");//pone la clase si no la tiene, la quita si la tiene
         let panel = elemento.nextElementSibling;
         if(panel.style.display == "block"){
             panel.style.display = "none";
