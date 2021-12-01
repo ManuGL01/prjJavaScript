@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: whitesmoke;
+}
+
+.contenedor{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.caja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 50%;
+    
+
+}
+
+.tareas{
+    display: flex;
+    flex-flow: column wrap;
+    width: 70%;
+    height: 250px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+#cambiar{
+    border-radius: 10px;
+    box-shadow: 0 1px 2px black;
+    margin: 20px;
+    float: right;
+}
+p{
+    padding-left: 10px;
+    margin: 10px;
+   font-size: 20px;
+    width: 25%;
+}
+#buscador{
+    margin:10px ;
+}
+/* p:hover{
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: line-through;
+    color:red;
+} */
